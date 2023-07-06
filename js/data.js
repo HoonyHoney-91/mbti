@@ -2,491 +2,491 @@ const qnaList = [
     {
         q: '1. At a party do you',
         a: [
-            { answer: 'A. Interact with many, including strangers', type: 'E'},
-            { answer: 'B. Interact with a few, known to you', type: 'I'},
+            { answer: 'A. Interact with many, including strangers', type: ['E']},
+            { answer: 'B. Interact with a few, known to you', type: ['I']},
         ]
     },
     {
-        q: '2. Are you more',
+        q: '2. At parties do you',
         a: [
-            { answer: 'A. Realistic than speculative', type: 'S'},
-            { answer: 'B. Speculative than realistic', type: 'N'},
+            { answer: 'A. Stay late, with increasing energy', type: ['E']},
+            { answer: 'B. Leave early with decreased energy', type: ['I']},
         ]
     },
     {
-        q: '3. Is it worse to',
+        q: '3. In your social groups do you',
         a: [
-            { answer: 'A. Have your “head in the clouds"', type: 'S'},
-            { answer: 'B. Be “in a rut”', type: 'N'},
+            { answer: 'A. Keep abreast of other\'s happenings', type: ['E']},
+            { answer: 'B. Get behind on the news', type: ['I']},
         ]
     },
     {
-        q: '4. Are you more impressed by',
+        q: '4. In phoning do you',
         a: [
-            { answer: 'A. Principles', type: 'T'},
-            { answer: 'B. Emotions', type: 'F'},
+            { answer: 'A. Rarely question that it will all be said', type: ['E']},
+            { answer: 'B. Rehearse what you’ll say', type: ['I']},
         ]
     },
     {
-        q: '5. Are more drawn toward the',
+        q: '5. In company do you',
+        a: [
+            { answer: 'A. initiate conversation', type: ['E']},
+            { answer: 'B. wait to be approached', type: ['I']},
+        ]
+    },
+    {
+        q: '6. Does new and non-routine interaction with others',
+        a: [
+            { answer: 'A. stimulate and energize you', type: ['E']},
+            { answer: 'B. tax your reserves', type: ['I']},
+        ]
+    },
+    {
+        q: '7. Do you prefert',
+        a: [
+            { answer: 'A. many friends with brief contact', type: ['E']},
+            { answer: 'B. a few friends with more lengthy contact', type: ['I']},
+        ]
+    },
+    {
+        q: '8. Do you',
+        a: [
+            { answer: 'A. speak easily and at length with strangers', type: ['E']},
+            { answer: 'B. find little to say to strangers', type: ['I']},
+        ]
+    },
+    {
+        q: '9. When the phone rings do you',
+        a: [
+            { answer: 'A. hasten to get to it first', type: ['E']},
+            { answer: 'B. hope someone else will answer', type: ['I']},
+        ]
+    },
+    {
+        q: '10. Are you more inclined to be',
+        a: [
+            { answer: 'A. easy to approach', type: ['E']},
+            { answer: 'B. somewhat reserved', type: ['I']},
+        ]
+    },
+    {
+        q: '11. Are you more',
+        a: [
+            { answer: 'A. Realistic than speculative', type: ['S']},
+            { answer: 'B. Speculative than realistic', type: ['N']},
+        ]
+    },
+    {
+        q: '12. Is it worse to',
+        a: [
+            { answer: 'A. Have your “head in the clouds"', type: ['S']},
+            { answer: 'B. Be “in a rut”', type: ['N']},
+        ]
+    },
+    {
+        q: '13. Are you more attracted to',
+        a: [
+            { answer: 'A. Sensible people', type: ['S']},
+            { answer: 'B. Imaginative people', type: ['N']},
+        ]
+    },
+    {
+        q: '14. Are you more interested in',
+        a: [
+            { answer: 'A. What is actual', type: ['S']},
+            { answer: 'B. What is possible', type: ['N']},
+        ]
+    },
+    {
+        q: '15. IIn doing ordinary things are you more likely to',
+        a: [
+            { answer: 'A. Do it the usual way', type: ['S']},
+            { answer: 'B. Do it your own way', type: ['N']},
+        ]
+    },
+    {
+        q: '16. Writers should',
+        a: [
+            { answer: 'A. \“Say what they mean and mean what they say\”', type: ['S']},
+            { answer: 'B. Express things more by use of analogy', type: ['N']},
+        ]
+    },
+    {
+        q: '17. Facts',
+        a: [
+            { answer: 'A. “Speak for themselves”', type: ['S']},
+            { answer: 'B. Illustrate principles', type: ['N']},
+        ]
+    },
+    {
+        q: '18. Are visionariest',
+        a: [
+            { answer: 'A. Somewhat annoying', type: ['S']},
+            { answer: 'B. Rather fascinating', type: ['N']},
+        ]
+    },
+    {
+        q: '19. Common sense is',
+        a: [
+            { answer: 'A. rarely questionable', type: ['S']},
+            { answer: 'B. frequently questionable', type: ['N']},
+        ]
+    },
+    {
+        q: '20. Children often do not',
+        a: [
+            { answer: 'A.  make themselves useful enough', type: ['S']},
+            { answer: 'B. exercise their fantasy enough', type: ['N']},
+        ]
+    },
+    {
+        q: '21. Are you more frequently',
+        a: [
+            { answer: 'A. a practical sort of person', type: ['S']},
+            { answer: 'B. a fanciful sort of person', type: ['N']},
+        ]
+    },
+    {
+        q: '22. Are you more likely to',
+        a: [
+            { answer: 'A. see how others are useful', type: ['S']},
+            { answer: 'B. see how others see', type: ['N']},
+        ]
+    },
+    {
+        q: '23. Do you go more by',
+        a: [
+            { answer: 'A. facts', type: ['S']},
+            { answer: 'B. principles', type: ['N']},
+        ]
+    },
+    {
+        q: '24. Are you more interested in',
+        a: [
+            { answer: 'A. production and distribution', type: ['S']},
+            { answer: 'B. design and research', type: ['N']},
+        ]
+    },
+    {
+        q: '25. Are you more likely to trust your',
+        a: [
+            { answer: 'A. experience', type: ['S']},
+            { answer: 'B. hunch', type: ['N']},
+        ]
+    },
+    {
+        q: '26. Do you feel',
+        a: [
+            { answer: 'A. more practical than ingenious', type: ['S']},
+            { answer: 'B. more ingenious than practical', type: ['N']},
+        ]
+    },
+    {
+        q: '27. Do you prize more in yourself',
+        a: [
+            { answer: 'A. a strong sense of reality', type: ['S']},
+            { answer: 'B. a vivid imagination', type: ['N']},
+        ]
+    },
+    {
+        q: '28. Are you drawn more to',
+        a: [
+            { answer: 'A. fundamentals', type: ['S']},
+            { answer: 'B. overtones', type: ['N']},
+        ]
+    },
+    {
+        q: '29. In writings do you prefer',
+        a: [
+            { answer: 'A. the more literal', type: ['S']},
+            { answer: 'B. the more figurative', type: ['N']},
+        ]
+    },
+    {
+        q: '30. Is it harder for you to',
+        a: [
+            { answer: 'A. identify with others', type: ['S']},
+            { answer: 'B. utilize others', type: ['N']},
+        ]
+    },
+    {
+        q: '31. Are you more impressed by',
+        a: [
+            { answer: 'A. Principles', type: ['T']},
+            { answer: 'B. Emotions', type: ['F']},
+        ]
+    },
+    {
+        q: '32. Are more drawn toward the',
         a: [ 
-            { answer: 'A. Convincing', type: 'T'},
-            { answer: 'B. Touching', type: 'F'},
+            { answer: 'A. Convincing', type: ['T']},
+            { answer: 'B. Touching', type: ['F']},
         ]
     },
     {
-        q: '6. Do you prefer to work',
+        q: '33. In judging others are you more swayed by',
         a: [
-            { answer: 'A. To deadlines', type: 'J'},
-            { answer: 'B. Just “whenever', type: 'P'},
+            { answer: 'A. Laws than circumstances', type: ['T']},
+            { answer: 'B. Circumstances than laws', type: ['F']},
         ]
     },
     {
-        q: '7. Do you tend to choose',
+        q: '34. In approaching others is your inclination to be somewhat',
         a: [
-            { answer: 'A. Rather carefully', type: 'J'},
-            { answer: 'B. Somewhat impulsively', type: 'P'},
+            { answer: 'A. Objective', type: ['T']},
+            { answer: 'B. Personal', type: ['F']},
         ]
     },
     {
-        q: '8. At parties do you',
+        q: '35. Which appeals to you more',
         a: [
-            { answer: 'A. Stay late, with increasing energy', type: 'E'},
-            { answer: 'B. Leave early with decreased energy', type: 'I'},
+            { answer: 'A. Consistency of thought', type: ['T']},
+            { answer: 'B. Harmonious human relationships', type: ['F']},
         ]
     },
     {
-        q: '9. Are you more attracted to',
+        q: '36. Are you more comfortable in making',
         a: [
-            { answer: 'A. Sensible people', type: 'S'},
-            { answer: 'B. Imaginative people', type: 'N'},
+            { answer: 'A. Logical judgments', type: ['T']},
+            { answer: 'B. Value judgments', type: ['F']},
         ]
     },
     {
-        q: '10. Are you more interested in',
+        q: '37. Are you more often',
         a: [
-            { answer: 'A. What is actual', type: 'S'},
-            { answer: 'B. What is possible', type: 'N'},
+            { answer: 'A. a cool-headed person', type: ['T']},
+            { answer: 'B. a warm-hearted person', type: ['F']},
         ]
     },
     {
-        q: '11. In judging others are you more swayed by',
+        q: '38. Is it worse to bet',
         a: [
-            { answer: 'A. Laws than circumstances', type: 'T'},
-            { answer: 'B. Circumstances than laws', type: 'F'},
+            { answer: 'A. unjust', type: ['T']},
+            { answer: 'B. merciless', type: ['F']},
         ]
     },
     {
-        q: '12. In approaching others is your inclination to be somewhat',
+        q: '39. In making decisions do you feel more comfortable with',
         a: [
-            { answer: 'A. Objective', type: 'T'},
-            { answer: 'B. Personal', type: 'F'},
+            { answer: 'A. standards', type: ['T']},
+            { answer: 'B. feelings', type: ['F']},
         ]
     },
     {
-        q: '13. Are you more',
+        q: '40. Are you more',
         a: [
-            { answer: 'A. Punctual', type: 'J'},
-            { answer: 'B. Leisurely', type: 'P'},
+            { answer: 'A. firm than gentle', type: ['T']},
+            { answer: 'B. gentle than firm', type: ['F']},
         ]
     },
     {
-        q: '14. Does it bother you more having things',
+        q: '41. Which is more satisfying',
         a: [
-            { answer: 'A. Incomplete', type: 'J'},
-            { answer: 'B. Completed', type: 'P'},
+            { answer: 'A. to discuss an issue thoroughly', type: ['T']},
+            { answer: 'B. to arrive at agreement on an issue', type: ['F']},
         ]
     },
     {
-        q: '15. IIn your social groups do you',
+        q: '42. Which rules you more',
         a: [
-            { answer: 'A. Keep abreast of other\'s happenings', type: 'E'},
-            { answer: 'B. Get behind on the news', type: 'I'},
+            { answer: 'A. your head', type: ['T']},
+            { answer: 'B. your heart', type: ['F']},
         ]
     },
     {
-        q: '16. IIn doing ordinary things are you more likely to',
+        q: '43. Which is more of a compliment',
         a: [
-            { answer: 'A. Do it the usual way', type: 'S'},
-            { answer: 'B. Do it your own way', type: 'N'},
+            { answer: 'A. “There is a very logical person.”', type: ['T']},
+            { answer: 'B. “There is a very sentimental person.”', type: ['F']},
         ]
     },
     {
-        q: '17. Writers should',
+        q: '44. Do you value in yourself more that you are',
         a: [
-            { answer: 'A. \“Say what they mean and mean what they say\”', type: 'S'},
-            { answer: 'B. Express things more by use of analogy', type: 'N'},
+            { answer: 'A. unwavering', type: ['T']},
+            { answer: 'B. devoted', type: ['F']},
         ]
     },
     {
-        q: '18. Which appeals to you more',
+        q: '45. Which person is more to be complimented \– one of',
         a: [
-            { answer: 'A. Consistency of thought', type: 'T'},
-            { answer: 'B. Harmonious human relationships', type: 'F'},
+            { answer: 'A. clear reason', type: ['T']},
+            { answer: 'B. strong feeling', type: ['F']},
         ]
     },
     {
-        q: '19. Are you more comfortable in making',
+        q: '46. Are you inclined more to be',
         a: [
-            { answer: 'A. Logical judgments', type: 'T'},
-            { answer: 'B. Value judgments', type: 'F'},
+            { answer: 'A. fair-minded', type: ['T']},
+            { answer: 'B. sympathetic', type: ['F']},
         ]
     },
     {
-        q: '20. Do you want things',
+        q: '47. Which seems the greater error',
         a: [
-            { answer: 'A. Settled and decided', type: 'J'},
-            { answer: 'B. Unsettled and undecided', type: 'P'},
+            { answer: 'A. to be too passionate', type: ['T']},
+            { answer: 'B. to be too objective', type: ['F']},
         ]
     },
     {
-        q: '21. Would you say you are more',
+        q: '48. Do you see yourself as basically',
         a: [
-            { answer: 'A. Serious and determined', type: 'J'},
-            { answer: 'B. Easy-going', type: 'P'},
+            { answer: 'A. hard-headed', type: ['T']},
+            { answer: 'B. soft-hearted', type: ['F']},
         ]
     },
     {
-        q: '22. In phoning do you',
+        q: '49. Which do you wish more for yourself',
         a: [
-            { answer: 'A. Rarely question that it will all be said', type: 'E'},
-            { answer: 'B. Rehearse what you’ll say', type: 'I'},
+            { answer: 'A. clarity of reason', type: ['T']},
+            { answer: 'B. strength of compassion', type: ['F']},
         ]
     },
     {
-        q: '23. Facts',
+        q: '50. Which is the greater fault',
         a: [
-            { answer: 'A. “Speak for themselves”', type: 'S'},
-            { answer: 'B. Illustrate principles', type: 'N'},
+            { answer: 'A. being indiscriminate', type: ['T']},
+            { answer: 'B. being critical', type: ['F']},
         ]
     },
     {
-        q: '24. Are visionariest',
+        q: '51. Do you prefer to work',
         a: [
-            { answer: 'A. Somewhat annoying', type: 'S'},
-            { answer: 'B. Rather fascinating', type: 'N'},
+            { answer: 'A. To deadlines', type: ['J']},
+            { answer: 'B. Just “whenever', type: ['P']},
         ]
     },
     {
-        q: '25. Are you more often',
+        q: '52. Do you tend to choose',
         a: [
-            { answer: 'A. a cool-headed person', type: 'T'},
-            { answer: 'B. a warm-hearted person', type: 'F'},
+            { answer: 'A. Rather carefully', type: ['J']},
+            { answer: 'B. Somewhat impulsively', type: ['P']},
         ]
     },
     {
-        q: '26. Is it worse to bet',
+        q: '53. Are you more',
         a: [
-            { answer: 'A. unjust', type: 'T'},
-            { answer: 'B. merciless', type: 'F'},
+            { answer: 'A. Punctual', type: ['J']},
+            { answer: 'B. Leisurely', type: ['P']},
         ]
     },
     {
-        q: '27. Should one usually let events occur',
+        q: '54. Does it bother you more having things',
         a: [
-            { answer: 'A. by careful selection and choice', type: 'J'},
-            { answer: 'B. randomly and by chance', type: 'P'},
+            { answer: 'A. Incomplete', type: ['J']},
+            { answer: 'B. Completed', type: ['P']},
         ]
     },
     {
-        q: '28. Do you feel better about',
+        q: '55. Do you want things',
         a: [
-            { answer: 'A. having purchased', type: 'J'},
-            { answer: 'B. having the option to buy', type: 'P'},
+            { answer: 'A. Settled and decided', type: ['J']},
+            { answer: 'B. Unsettled and undecided', type: ['P']},
         ]
     },
     {
-        q: '29. In company do you',
+        q: '56. Would you say you are more',
         a: [
-            { answer: 'A. initiate conversation', type: 'E'},
-            { answer: 'B. wait to be approached', type: 'I'},
+            { answer: 'A. Serious and determined', type: ['J']},
+            { answer: 'B. Easy-going', type: ['P']},
         ]
     },
     {
-        q: '30. Common sense is',
+        q: '57. Should one usually let events occur',
         a: [
-            { answer: 'A. rarely questionable', type: 'S'},
-            { answer: 'B. frequently questionable', type: 'N'},
+            { answer: 'A. by careful selection and choice', type: ['J']},
+            { answer: 'B. randomly and by chance', type: ['P']},
         ]
     },
     {
-        q: '31. Children often do not',
+        q: '58. Do you feel better about',
         a: [
-            { answer: 'A.  make themselves useful enough', type: 'S'},
-            { answer: 'B. exercise their fantasy enough', type: 'N'},
+            { answer: 'A. having purchased', type: ['J']},
+            { answer: 'B. having the option to buy', type: ['P']},
         ]
     },
     {
-        q: '32. In making decisions do you feel more comfortable with',
+        q: '59. Which is more admirablet',
         a: [
-            { answer: 'A. standards', type: 'T'},
-            { answer: 'B. feelings', type: 'F'},
+            { answer: 'A. the ability to organize and be methodical', type: ['J']},
+            { answer: 'B. the ability to adapt and make do', type: ['P']},
         ]
     },
     {
-        q: '33. Are you more',
+        q: '60. Do you put more value on',
         a: [
-            { answer: 'A. firm than gentle', type: 'T'},
-            { answer: 'B. gentle than firm', type: 'F'},
+            { answer: 'A. infinite', type: ['J']},
+            { answer: 'B. open-minded', type: ['P']},
         ]
     },
     {
-        q: '34. Which is more admirablet',
+        q: '61. Are you more comfortable with work that is',
         a: [
-            { answer: 'A. the ability to organize and be methodical', type: 'J'},
-            { answer: 'B. the ability to adapt and make do', type: 'P'},
+            { answer: 'A. contracted', type: ['J']},
+            { answer: 'B. done on a casual basis', type: ['P']},
         ]
     },
     {
-        q: '35. Do you put more value on',
+        q: '62. Do you tend to look for',
         a: [
-            { answer: 'A. infinite', type: 'J'},
-            { answer: 'B. open-minded', type: 'P'},
+            { answer: 'A. the orderly', type: ['J']},
+            { answer: 'B. whatever turns up', type: ['P']},
         ]
     },
     {
-        q: '36. Does new and non-routine interaction with others',
+        q: '63. Do you more often prefer the',
         a: [
-            { answer: 'A. stimulate and energize you', type: 'E'},
-            { answer: 'B. tax your reserves', type: 'I'},
+            { answer: 'A. final and unalterable statement', type: ['J']},
+            { answer: 'B. Persontentative and preliminary statement', type: ['P']},
         ]
     },
     {
-        q: '37. Are you more frequently',
+        q: '64. Are you more comfortable',
         a: [
-            { answer: 'A. a practical sort of person', type: 'S'},
-            { answer: 'B. a fanciful sort of person', type: 'N'},
+            { answer: 'A. after a decision', type: ['J']},
+            { answer: 'B. before a decision', type: ['P']},
         ]
     },
     {
-        q: '38. Are you more likely to',
+        q: '65. Is it preferable mostly to',
         a: [
-            { answer: 'A. see how others are useful', type: 'S'},
-            { answer: 'B. see how others see', type: 'N'},
+            { answer: 'A. make sure things are arranged', type: ['J']},
+            { answer: 'B. just let things happen', type: ['P']},
         ]
     },
     {
-        q: '39. Which is more satisfying',
+        q: '66. In relationships should most things be',
         a: [
-            { answer: 'A. to discuss an issue thoroughly', type: 'T'},
-            { answer: 'B. to arrive at agreement on an issue', type: 'F'},
+            { answer: 'A. re-negotiable', type: ['J']},
+            { answer: 'B. random and circumstantial', type: ['P']},
         ]
     },
     {
-        q: '40. Which rules you more',
+        q: '67. Which situation appeals to you more',
         a: [
-            { answer: 'A. your head', type: 'T'},
-            { answer: 'B. your heart', type: 'F'},
+            { answer: 'A. the structured and scheduled', type: ['J']},
+            { answer: 'B. the unstructured and unscheduled', type: ['P']},
         ]
     },
     {
-        q: '41. Are you more comfortable with work that is',
+        q: '68. Are you a person that is more',
         a: [
-            { answer: 'A. contracted', type: 'J'},
-            { answer: 'B. done on a casual basis', type: 'P'},
-        ]
-    },
-    {
-        q: '42. Do you tend to look for',
-        a: [
-            { answer: 'A. the orderly', type: 'J'},
-            { answer: 'B. whatever turns up', type: 'P'},
-        ]
-    },
-    {
-        q: '43. Do you prefert',
-        a: [
-            { answer: 'A. many friends with brief contact', type: 'E'},
-            { answer: 'B. a few friends with more lengthy contact', type: 'I'},
-        ]
-    },
-    {
-        q: '44. Do you go more by',
-        a: [
-            { answer: 'A. facts', type: 'S'},
-            { answer: 'B. principles', type: 'N'},
-        ]
-    },
-    {
-        q: '45. Are you more interested in',
-        a: [
-            { answer: 'A. production and distribution', type: 'S'},
-            { answer: 'B. design and research', type: 'N'},
-        ]
-    },
-    {
-        q: '46. Which is more of a compliment',
-        a: [
-            { answer: 'A. “There is a very logical person.”', type: 'T'},
-            { answer: 'B. “There is a very sentimental person.”', type: 'F'},
-        ]
-    },
-    {
-        q: '47. Do you value in yourself more that you are',
-        a: [
-            { answer: 'A. unwavering', type: 'T'},
-            { answer: 'B. devoted', type: 'F'},
-        ]
-    },
-    {
-        q: '48. Do you more often prefer the',
-        a: [
-            { answer: 'A. final and unalterable statement', type: 'J'},
-            { answer: 'B. Persontentative and preliminary statement', type: 'P'},
-        ]
-    },
-    {
-        q: '49. Are you more comfortable',
-        a: [
-            { answer: 'A. after a decision', type: 'J'},
-            { answer: 'B. before a decision', type: 'P'},
-        ]
-    },
-    {
-        q: '50. Do you',
-        a: [
-            { answer: 'A. speak easily and at length with strangers', type: 'E'},
-            { answer: 'B. find little to say to strangers', type: 'I'},
-        ]
-    },
-    {
-        q: '51. Are you more likely to trust your',
-        a: [
-            { answer: 'A. experience', type: 'S'},
-            { answer: 'B. hunch', type: 'N'},
-        ]
-    },
-    {
-        q: '52. Do you feel',
-        a: [
-            { answer: 'A. more practical than ingenious', type: 'S'},
-            { answer: 'B. more ingenious than practical', type: 'N'},
-        ]
-    },
-    {
-        q: '53. Which person is more to be complimented \– one of',
-        a: [
-            { answer: 'A. clear reason', type: 'T'},
-            { answer: 'B. strong feeling', type: 'F'},
-        ]
-    },
-    {
-        q: '54. Are you inclined more to be',
-        a: [
-            { answer: 'A. fair-minded', type: 'T'},
-            { answer: 'B. sympathetic', type: 'F'},
-        ]
-    },
-    {
-        q: '55. Is it preferable mostly to',
-        a: [
-            { answer: 'A. make sure things are arranged', type: 'J'},
-            { answer: 'B. just let things happen', type: 'P'},
-        ]
-    },
-    {
-        q: '56. In relationships should most things be',
-        a: [
-            { answer: 'A. re-negotiable', type: 'J'},
-            { answer: 'B. random and circumstantial', type: 'P'},
-        ]
-    },
-    {
-        q: '57. When the phone rings do you',
-        a: [
-            { answer: 'A. hasten to get to it first', type: 'E'},
-            { answer: 'B. hope someone else will answer', type: 'I'},
-        ]
-    },
-    {
-        q: '58. Do you prize more in yourself',
-        a: [
-            { answer: 'A. a strong sense of reality', type: 'S'},
-            { answer: 'B. a vivid imagination', type: 'N'},
-        ]
-    },
-    {
-        q: '59. Are you drawn more to',
-        a: [
-            { answer: 'A. fundamentals', type: 'S'},
-            { answer: 'B. overtones', type: 'N'},
-        ]
-    },
-    {
-        q: '60. Which seems the greater error',
-        a: [
-            { answer: 'A. to be too passionate', type: 'T'},
-            { answer: 'B. to be too objective', type: 'F'},
-        ]
-    },
-    {
-        q: '61. Do you see yourself as basically',
-        a: [
-            { answer: 'A. hard-headed', type: 'T'},
-            { answer: 'B. soft-hearted', type: 'F'},
-        ]
-    },
-    {
-        q: '62. Which situation appeals to you more',
-        a: [
-            { answer: 'A. the structured and scheduled', type: 'J'},
-            { answer: 'B. the unstructured and unscheduled', type: 'P'},
-        ]
-    },
-    {
-        q: '63. Are you a person that is more',
-        a: [
-            { answer: 'A. routinized than whimsical', type: 'J'},
-            { answer: 'B. whimsical than routinized', type: 'P'},
-        ]
-    },
-    {
-        q: '64. Are you more inclined to be',
-        a: [
-            { answer: 'A. easy to approach', type: 'I'},
-            { answer: 'B. somewhat reserved', type: 'I'},
-        ]
-    },
-    {
-        q: '65. In writings do you prefer',
-        a: [
-            { answer: 'A. the more literal', type: 'S'},
-            { answer: 'B. the more figurative', type: 'N'},
-        ]
-    },
-    {
-        q: '66. Is it harder for you to',
-        a: [
-            { answer: 'A. identify with others', type: 'S'},
-            { answer: 'B. utilize others', type: 'N'},
-        ]
-    },
-    {
-        q: '67. Which do you wish more for yourself',
-        a: [
-            { answer: 'A. clarity of reason', type: 'T'},
-            { answer: 'B. strength of compassion', type: 'F'},
-        ]
-    },
-    {
-        q: '68. Which is the greater fault',
-        a: [
-            { answer: 'A. being indiscriminate', type: 'T'},
-            { answer: 'B. being critical', type: 'F'},
+            { answer: 'A. routinized than whimsical', type: ['J']},
+            { answer: 'B. whimsical than routinized', type: ['P']},
         ]
     },
     {
         q: '69. Do you prefer the',
         a: [
-            { answer: 'A. planned event', type: 'J'},
-            { answer: 'B. unplanned event', type: 'P'},
+            { answer: 'A. planned event', type: ['J']},
+            { answer: 'B. unplanned event', type: ['P']},
         ]
     },
     {
         q: '70. Do you tend to be more',
         a: [
-            { answer: 'A. deliberate than spontaneous', type: 'J'},
-            { answer: 'B. spontaneous than deliberate', type: 'P'},
+            { answer: 'A. deliberate than spontaneous', type: ['J']},
+            { answer: 'B. spontaneous than deliberate', type: ['P']},
         ]
     },
 ]

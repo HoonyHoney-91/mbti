@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="Anthony">
     <meta name="keyword" content="MBTI test">
-    <meta name ="descrition" content="MBTI test">
+    <meta name ="description" content="MBTI test">
 
     <!-- sns share -->
-    <meta property="og:url" content="" />
+    <meta property="og:url" content="https://mbtibyanthony.netlify.app" />
     <meta property="og:title" content="MBTI test" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="img/share.png" />
-    <meta property="og:descrition" content="MBTI test by Anthony" />
+    <meta property="og:description" content="MBTI test by Anthony" />
 
 <!-- favicon -->
     <link rel="shortcut icon" href="img/favicon.png">
@@ -28,17 +28,22 @@
     <link rel="stylesheet" href="css/qna.css">
     <link rel="stylesheet" href="css/animation.css">
     <link rel="stylesheet" href="css/result.css">
+    <script src="https://t1.kakaocdn.net/kakao_js_sdk/2.0.1/kakao.min.js"></script>
+    <script>
+        Kakao.init('66827915b7a523a98108271f4fd43490');
+        Kakao.isInitialized();
+    </script>
 </head>
 <body>
     <div class="container">
         <section id="main" class="mx-auto mt-5 py-5 px-3">
             <h1>MBTI</h1>
             <div class="col-lg-6 col-md-6 col-sm-6 col-12 mx-auto">
-                <img src="/Users/anthonyshin/Documents/MBTI/vecteezy_mbti-personality-types-concept_12912809.jpg" alt="" class="img-fluid">
+                <img src="/Users/anthonyshin/Documents/MBTI/img/vecteezy_mbti-personality-types-concept_12912809.jpg" alt="" class="img-fluid">
             </div>
             <p>
-                나만의 MBTI 사이트입니다<br>
-                아래 시작하기 버튼을 눌러 시작해 주십시오
+                Test your MBTI personal test<br>
+                Please click the button below to start!
             </p>
             <button type="button" class="btn btn-outline-danger mt-3" onclick="js:begin()">START</button>
         </section>
@@ -66,14 +71,12 @@
             <div class="resultDesc">
 
             </div>
-            <p>
-                나만의 MBTI 사이트입니다<br>
-                아래 시작하기 버튼을 눌러 시작해 주십시오
-            </p>
-            <button type="button" class="kakao mt-3 py-2 px-3">Share</button>
+
+            <button type="button" class="kakao mt-3 py-2 px-3" onclick="js:kakaoShare()">Share</button>
         </section>
-        <script src="data.js"></script>
-        <script src="test.js"></script>
+        <script src="js/data.js"></script>
+        <script src="js/start.js"></script>
+        <script src="js/share.js"></script>
     </div>
 </body>
 </html>

@@ -17,7 +17,7 @@
     font-size: 20px;
 }
 .answerList:hover, .answerList:focus{
-    background-color: pink;
+    background-color: rgba(205, 128, 203, 0.853);
     color: whitesmoke;
 }
 .status{
@@ -28,7 +28,7 @@
 }
 .statusBar{
     height: 100%;
-    background: rgb(239,197,202); /* Old browsers */
+    background: rgba(205, 128, 203, 0.853);; /* Old browsers */
     background: -moz-linear-gradient(top,  rgba(239,197,202,1) 0%, rgba(241,142,153,1) 0%, rgba(210,75,90,1) 53%, rgba(186,39,55,1) 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top,  rgba(239,197,202,1) 0%,rgba(241,142,153,1) 0%,rgba(210,75,90,1) 53%,rgba(186,39,55,1) 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom,  rgba(239,197,202,1) 0%,rgba(241,142,153,1) 0%,rgba(210,75,90,1) 53%,rgba(186,39,55,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */

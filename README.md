@@ -18,8 +18,12 @@ This web application, developed by Anthony, aims to assist individuals in unders
 ## Features
 
 - User-friendly interface for taking the MBTI test
+![Alt Text](/image/start.png)
 - Dynamically generated questions and answer options
+![Alt Text](/image/first.png)
+![Alt Text](/image/middle.png)
 - Real-time result calculation based on user responses
+![Alt Text](/image/result.png)
 - Display of MBTI type and associated description
 - Integration with social media sharing functionality
 - Responsive design for seamless usage on various devices

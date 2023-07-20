@@ -28,7 +28,8 @@
     <link rel="stylesheet" href="css/qna.css">
     <link rel="stylesheet" href="css/animation.css">
     <link rel="stylesheet" href="css/result.css">
-    <script src="https://t1.kakaocdn.net/kakao_js_sdk/2.0.1/kakao.min.js"></script>
+    <script src="https://t1.kakaocdn.net/kakao_js_sdk/2.3.0/kakao.min.js"
+  integrity="sha384-70k0rrouSYPWJt7q9rSTKpiTfX6USlMYjZUtr1Du+9o4cGvhPAWxngdtVZDdErlh" crossorigin="anonymous"></script>
     <script>
         Kakao.init('66827915b7a523a98108271f4fd43490');
         Kakao.isInitialized();
@@ -39,7 +40,7 @@
         <section id="main" class="mx-auto mt-5 py-5 px-3">
             <h1>MBTI</h1>
             <div class="col-lg-6 col-md-6 col-sm-6 col-12 mx-auto">
-                <img src="/Users/anthonyshin/Documents/MBTI/img/vecteezy_mbti-personality-types-concept_12912809.jpg" alt="" class="img-fluid">
+                <img src="./img/vecteezy_mbti-personality-types-concept_12912809.jpg" alt="" class="img-fluid">
             </div>
             <p>
                 Test your MBTI personal test<br>
@@ -72,7 +73,7 @@
 
             </div>
 
-            <button type="button" class="kakao mt-3 py-2 px-3" onclick="js:kakaoShare()">Share</button>
+            <button type="button" class="kakao mt-3 py-2 px-3" onclick="js:setShare()">Share</button>
         </section>
         <script src="js/data.js"></script>
         <script src="js/start.js"></script>

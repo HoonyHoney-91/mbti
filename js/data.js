@@ -128,85 +128,85 @@ const qnaList = [
     {
         q: '19. Common sense is',
         a: [
-            { answer: 'A. rarely questionable', type: ['S']},
-            { answer: 'B. frequently questionable', type: ['N']},
+            { answer: 'A. Rarely questionable', type: ['S']},
+            { answer: 'B. Frequently questionable', type: ['N']},
         ]
     },
     {
         q: '20. Children often do not',
         a: [
-            { answer: 'A.  make themselves useful enough', type: ['S']},
-            { answer: 'B. exercise their fantasy enough', type: ['N']},
+            { answer: 'A. Make themselves useful enough', type: ['S']},
+            { answer: 'B. Exercise their fantasy enough', type: ['N']},
         ]
     },
     {
         q: '21. Are you more frequently',
         a: [
-            { answer: 'A. a practical sort of person', type: ['S']},
-            { answer: 'B. a fanciful sort of person', type: ['N']},
+            { answer: 'A. A practical sort of person', type: ['S']},
+            { answer: 'B. A fanciful sort of person', type: ['N']},
         ]
     },
     {
         q: '22. Are you more likely to',
         a: [
-            { answer: 'A. see how others are useful', type: ['S']},
-            { answer: 'B. see how others see', type: ['N']},
+            { answer: 'A. See how others are useful', type: ['S']},
+            { answer: 'B. See how others see', type: ['N']},
         ]
     },
     {
         q: '23. Do you go more by',
         a: [
-            { answer: 'A. facts', type: ['S']},
-            { answer: 'B. principles', type: ['N']},
+            { answer: 'A. Facts', type: ['S']},
+            { answer: 'B. Principles', type: ['N']},
         ]
     },
     {
         q: '24. Are you more interested in',
         a: [
-            { answer: 'A. production and distribution', type: ['S']},
-            { answer: 'B. design and research', type: ['N']},
+            { answer: 'A. Production and distribution', type: ['S']},
+            { answer: 'B. Design and research', type: ['N']},
         ]
     },
     {
         q: '25. Are you more likely to trust your',
         a: [
-            { answer: 'A. experience', type: ['S']},
-            { answer: 'B. hunch', type: ['N']},
+            { answer: 'A. Experience', type: ['S']},
+            { answer: 'B. Hunch', type: ['N']},
         ]
     },
     {
         q: '26. Do you feel',
         a: [
-            { answer: 'A. more practical than ingenious', type: ['S']},
-            { answer: 'B. more ingenious than practical', type: ['N']},
+            { answer: 'A. More practical than ingenious', type: ['S']},
+            { answer: 'B. More ingenious than practical', type: ['N']},
         ]
     },
     {
         q: '27. Do you prize more in yourself',
         a: [
-            { answer: 'A. a strong sense of reality', type: ['S']},
-            { answer: 'B. a vivid imagination', type: ['N']},
+            { answer: 'A. A strong sense of reality', type: ['S']},
+            { answer: 'B. A vivid imagination', type: ['N']},
         ]
     },
     {
         q: '28. Are you drawn more to',
         a: [
-            { answer: 'A. fundamentals', type: ['S']},
-            { answer: 'B. overtones', type: ['N']},
+            { answer: 'A. Fundamentals', type: ['S']},
+            { answer: 'B. Overtones', type: ['N']},
         ]
     },
     {
         q: '29. In writings do you prefer',
         a: [
-            { answer: 'A. the more literal', type: ['S']},
-            { answer: 'B. the more figurative', type: ['N']},
+            { answer: 'A. The more literal', type: ['S']},
+            { answer: 'B. The more figurative', type: ['N']},
         ]
     },
     {
         q: '30. Is it harder for you to',
         a: [
-            { answer: 'A. identify with others', type: ['S']},
-            { answer: 'B. utilize others', type: ['N']},
+            { answer: 'A. Identify with others', type: ['S']},
+            { answer: 'B. Utilize others', type: ['N']},
         ]
     },
     {
@@ -254,43 +254,43 @@ const qnaList = [
     {
         q: '37. Are you more often',
         a: [
-            { answer: 'A. a cool-headed person', type: ['T']},
-            { answer: 'B. a warm-hearted person', type: ['F']},
+            { answer: 'A. A cool-headed person', type: ['T']},
+            { answer: 'B. A warm-hearted person', type: ['F']},
         ]
     },
     {
         q: '38. Is it worse to bet',
         a: [
-            { answer: 'A. unjust', type: ['T']},
-            { answer: 'B. merciless', type: ['F']},
+            { answer: 'A. Unjust', type: ['T']},
+            { answer: 'B. Merciless', type: ['F']},
         ]
     },
     {
         q: '39. In making decisions do you feel more comfortable with',
         a: [
-            { answer: 'A. standards', type: ['T']},
-            { answer: 'B. feelings', type: ['F']},
+            { answer: 'A. Standards', type: ['T']},
+            { answer: 'B. Feelings', type: ['F']},
         ]
     },
     {
         q: '40. Are you more',
         a: [
-            { answer: 'A. firm than gentle', type: ['T']},
-            { answer: 'B. gentle than firm', type: ['F']},
+            { answer: 'A. Firm than gentle', type: ['T']},
+            { answer: 'B. Gentle than firm', type: ['F']},
         ]
     },
     {
         q: '41. Which is more satisfying',
         a: [
-            { answer: 'A. to discuss an issue thoroughly', type: ['T']},
-            { answer: 'B. to arrive at agreement on an issue', type: ['F']},
+            { answer: 'A. To discuss an issue thoroughly', type: ['T']},
+            { answer: 'B. To arrive at agreement on an issue', type: ['F']},
         ]
     },
     {
         q: '42. Which rules you more',
         a: [
-            { answer: 'A. your head', type: ['T']},
-            { answer: 'B. your heart', type: ['F']},
+            { answer: 'A. Your head', type: ['T']},
+            { answer: 'B. Your heart', type: ['F']},
         ]
     },
     {
@@ -303,50 +303,50 @@ const qnaList = [
     {
         q: '44. Do you value in yourself more that you are',
         a: [
-            { answer: 'A. unwavering', type: ['T']},
-            { answer: 'B. devoted', type: ['F']},
+            { answer: 'A. Unwavering', type: ['T']},
+            { answer: 'B. Devoted', type: ['F']},
         ]
     },
     {
         q: '45. Which person is more to be complimented \– one of',
         a: [
-            { answer: 'A. clear reason', type: ['T']},
-            { answer: 'B. strong feeling', type: ['F']},
+            { answer: 'A. Clear reason', type: ['T']},
+            { answer: 'B. Strong feeling', type: ['F']},
         ]
     },
     {
         q: '46. Are you inclined more to be',
         a: [
-            { answer: 'A. fair-minded', type: ['T']},
-            { answer: 'B. sympathetic', type: ['F']},
+            { answer: 'A. Fair-minded', type: ['T']},
+            { answer: 'B. Sympathetic', type: ['F']},
         ]
     },
     {
         q: '47. Which seems the greater error',
         a: [
-            { answer: 'A. to be too passionate', type: ['T']},
-            { answer: 'B. to be too objective', type: ['F']},
+            { answer: 'A. To be too passionate', type: ['T']},
+            { answer: 'B. To be too objective', type: ['F']},
         ]
     },
     {
         q: '48. Do you see yourself as basically',
         a: [
-            { answer: 'A. hard-headed', type: ['T']},
-            { answer: 'B. soft-hearted', type: ['F']},
+            { answer: 'A. Hard-headed', type: ['T']},
+            { answer: 'B. Soft-hearted', type: ['F']},
         ]
     },
     {
         q: '49. Which do you wish more for yourself',
         a: [
-            { answer: 'A. clarity of reason', type: ['T']},
-            { answer: 'B. strength of compassion', type: ['F']},
+            { answer: 'A. Clarity of reason', type: ['T']},
+            { answer: 'B. Strength of compassion', type: ['F']},
         ]
     },
     {
         q: '50. Which is the greater fault',
         a: [
-            { answer: 'A. being indiscriminate', type: ['T']},
-            { answer: 'B. being critical', type: ['F']},
+            { answer: 'A. Being indiscriminate', type: ['T']},
+            { answer: 'B. Being critical', type: ['F']},
         ]
     },
     {
@@ -394,99 +394,99 @@ const qnaList = [
     {
         q: '57. Should one usually let events occur',
         a: [
-            { answer: 'A. by careful selection and choice', type: ['J']},
-            { answer: 'B. randomly and by chance', type: ['P']},
+            { answer: 'A. By careful selection and choice', type: ['J']},
+            { answer: 'B. Randomly and by chance', type: ['P']},
         ]
     },
     {
         q: '58. Do you feel better about',
         a: [
-            { answer: 'A. having purchased', type: ['J']},
-            { answer: 'B. having the option to buy', type: ['P']},
+            { answer: 'A. Having purchased', type: ['J']},
+            { answer: 'B. Having the option to buy', type: ['P']},
         ]
     },
     {
         q: '59. Which is more admirablet',
         a: [
-            { answer: 'A. the ability to organize and be methodical', type: ['J']},
-            { answer: 'B. the ability to adapt and make do', type: ['P']},
+            { answer: 'A. The ability to organize and be methodical', type: ['J']},
+            { answer: 'B. The ability to adapt and make do', type: ['P']},
         ]
     },
     {
         q: '60. Do you put more value on',
         a: [
-            { answer: 'A. infinite', type: ['J']},
-            { answer: 'B. open-minded', type: ['P']},
+            { answer: 'A. Infinite', type: ['J']},
+            { answer: 'B. Open-minded', type: ['P']},
         ]
     },
     {
         q: '61. Are you more comfortable with work that is',
         a: [
-            { answer: 'A. contracted', type: ['J']},
-            { answer: 'B. done on a casual basis', type: ['P']},
+            { answer: 'A. Contracted', type: ['J']},
+            { answer: 'B. Done on a casual basis', type: ['P']},
         ]
     },
     {
         q: '62. Do you tend to look for',
         a: [
-            { answer: 'A. the orderly', type: ['J']},
-            { answer: 'B. whatever turns up', type: ['P']},
+            { answer: 'A. The orderly', type: ['J']},
+            { answer: 'B. Whatever turns up', type: ['P']},
         ]
     },
     {
         q: '63. Do you more often prefer the',
         a: [
-            { answer: 'A. final and unalterable statement', type: ['J']},
-            { answer: 'B. Persontentative and preliminary statement', type: ['P']},
+            { answer: 'A. Final and unalterable statement', type: ['J']},
+            { answer: 'B. Tentative and preliminary statement', type: ['P']},
         ]
     },
     {
         q: '64. Are you more comfortable',
         a: [
-            { answer: 'A. after a decision', type: ['J']},
-            { answer: 'B. before a decision', type: ['P']},
+            { answer: 'A. After a decision', type: ['J']},
+            { answer: 'B. Before a decision', type: ['P']},
         ]
     },
     {
         q: '65. Is it preferable mostly to',
         a: [
-            { answer: 'A. make sure things are arranged', type: ['J']},
-            { answer: 'B. just let things happen', type: ['P']},
+            { answer: 'A. Make sure things are arranged', type: ['J']},
+            { answer: 'B. Just let things happen', type: ['P']},
         ]
     },
     {
         q: '66. In relationships should most things be',
         a: [
-            { answer: 'A. re-negotiable', type: ['J']},
-            { answer: 'B. random and circumstantial', type: ['P']},
+            { answer: 'A. Re-negotiable', type: ['J']},
+            { answer: 'B. Random and circumstantial', type: ['P']},
         ]
     },
     {
         q: '67. Which situation appeals to you more',
         a: [
-            { answer: 'A. the structured and scheduled', type: ['J']},
-            { answer: 'B. the unstructured and unscheduled', type: ['P']},
+            { answer: 'A. The structured and scheduled', type: ['J']},
+            { answer: 'B. The unstructured and unscheduled', type: ['P']},
         ]
     },
     {
         q: '68. Are you a person that is more',
         a: [
-            { answer: 'A. routinized than whimsical', type: ['J']},
-            { answer: 'B. whimsical than routinized', type: ['P']},
+            { answer: 'A. Routinized than whimsical', type: ['J']},
+            { answer: 'B. Whimsical than routinized', type: ['P']},
         ]
     },
     {
         q: '69. Do you prefer the',
         a: [
-            { answer: 'A. planned event', type: ['J']},
-            { answer: 'B. unplanned event', type: ['P']},
+            { answer: 'A. Planned event', type: ['J']},
+            { answer: 'B. Unplanned event', type: ['P']},
         ]
     },
     {
         q: '70. Do you tend to be more',
         a: [
-            { answer: 'A. deliberate than spontaneous', type: ['J']},
-            { answer: 'B. spontaneous than deliberate', type: ['P']},
+            { answer: 'A. Deliberate than spontaneous', type: ['J']},
+            { answer: 'B. Spontaneous than deliberate', type: ['P']},
         ]
     },
 ]
